@@ -1,0 +1,4307 @@
+{
+  "versao": 1,
+  "id": "casa-maracana",
+  "nome": "Casa Maracana",
+  "local": {
+    "cidade": "Santarém/PA",
+    "lat": -2.44,
+    "lon": -54.75
+  },
+  "norteGraus": 90,
+  "materiais": {
+    "pintura-branca": {
+      "nome": "Pintura acrílica branca",
+      "preset": "pintura",
+      "cor": "#f1eee8",
+      "rugosidade": 0.9,
+      "metalico": 0,
+      "escala": 1,
+      "opacidade": 1
+    },
+    "pintura-fachada": {
+      "nome": "Pintura da fachada",
+      "preset": "pintura",
+      "cor": "#d8ccb6",
+      "rugosidade": 0.9,
+      "metalico": 0,
+      "escala": 1,
+      "opacidade": 1
+    },
+    "porcelanato-claro": {
+      "nome": "Porcelanato acetinado claro",
+      "preset": "porcelanato",
+      "cor": "#d9d3c9",
+      "rugosidade": 0.35,
+      "metalico": 0,
+      "escala": 0.9,
+      "opacidade": 1
+    },
+    "ceramica-branca": {
+      "nome": "Cerâmica branca",
+      "preset": "ceramica",
+      "cor": "#ececea",
+      "rugosidade": 0.4,
+      "metalico": 0,
+      "escala": 0.45,
+      "opacidade": 1
+    },
+    "madeira-porta": {
+      "nome": "Porta de madeira",
+      "preset": "madeira",
+      "cor": "#8a6142",
+      "rugosidade": 0.6,
+      "metalico": 0,
+      "escala": 1,
+      "opacidade": 1
+    },
+    "fibra-azul": {
+      "nome": "Piscina de fibra azul",
+      "preset": "agua",
+      "cor": "#3fb6d9",
+      "rugosidade": 0.1,
+      "metalico": 0,
+      "escala": 1,
+      "opacidade": 0.9
+    },
+    "vidro": {
+      "nome": "Vidro temperado",
+      "preset": "vidro",
+      "cor": "#bcd7e0",
+      "rugosidade": 0.05,
+      "metalico": 0,
+      "escala": 1,
+      "opacidade": 0.35
+    },
+    "porcelanato-branco": {
+      "nome": "Porcelanato branco polido",
+      "preset": "porcelanato",
+      "cor": "#ecebe6",
+      "rugosidade": 0.12,
+      "metalico": 0,
+      "escala": 0.9,
+      "opacidade": 1
+    },
+    "ceramica-creme": {
+      "nome": "Cerâmica creme antiderrapante",
+      "preset": "ceramica",
+      "cor": "#e4c597",
+      "rugosidade": 0.6,
+      "metalico": 0,
+      "escala": 0.45,
+      "opacidade": 1
+    },
+    "telha-barro": {
+      "nome": "Telha cerâmica (barro)",
+      "preset": "telha",
+      "cor": "#b5502f",
+      "rugosidade": 0.8,
+      "metalico": 0,
+      "escala": 1,
+      "opacidade": 1
+    },
+    "aluminio": {
+      "nome": "Alumínio",
+      "preset": "metal",
+      "cor": "#c9c9c9",
+      "rugosidade": 0.35,
+      "metalico": 1,
+      "escala": 1,
+      "opacidade": 1
+    },
+    "grama-esmeralda": {
+      "nome": "Grama esmeralda",
+      "preset": "grama",
+      "cor": "#5b8f37",
+      "rugosidade": 0.95,
+      "metalico": 0,
+      "escala": 2.5,
+      "opacidade": 1
+    },
+    "ferro-preto": {
+      "nome": "Ferro pintado preto",
+      "preset": "metal",
+      "cor": "#1c1c1e",
+      "rugosidade": 0.45,
+      "metalico": 0.8,
+      "escala": 1,
+      "opacidade": 1
+    },
+    "terra-jardim": {
+      "nome": "Terra de jardim",
+      "preset": "terra",
+      "cor": "#6b4f36",
+      "rugosidade": 1,
+      "metalico": 0,
+      "escala": 1.5,
+      "opacidade": 1
+    }
+  },
+  "padroes": {
+    "paredeInterna": "pintura-branca",
+    "paredeExterna": "pintura-fachada",
+    "piso": "porcelanato-branco",
+    "pisoMolhado": "porcelanato-branco",
+    "teto": "pintura-branca",
+    "porta": "madeira-porta",
+    "esquadria": "aluminio"
+  },
+  "andares": [
+    {
+      "id": "t",
+      "nome": "Térreo",
+      "nivel": 0,
+      "peDireito": 2.7,
+      "laje": 0.12,
+      "paredes": [
+        {
+          "id": "t-p2",
+          "de": [
+            9.9,
+            19.9
+          ],
+          "para": [
+            9.9,
+            8
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "estimado-foto",
+          "fontes": [
+            "medidas.md"
+          ],
+          "nota": "Lateral direita, colada no muro (recuo 0 informado); termina no recorte da piscina"
+        },
+        {
+          "id": "t-p3",
+          "de": [
+            9.9,
+            8
+          ],
+          "para": [
+            6.9,
+            8
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [
+            {
+              "id": "t-p3-j-piscina",
+              "tipo": "janela",
+              "posicao": 1.472,
+              "largura": 1.2,
+              "altura": 1,
+              "peitoril": 1.2,
+              "estilo": "correr",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-4-.jpeg"
+              ],
+              "nota": "Janela de correr voltada para a piscina (foto da piscina, com condensadora acima); medidas estimadas"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-4-.jpeg"
+          ],
+          "nota": "Fundo da casa no trecho direito, de frente para a piscina (casa em L informada; posição estimada)"
+        },
+        {
+          "id": "t-p9",
+          "de": [
+            6.9,
+            8
+          ],
+          "para": [
+            6.9,
+            2.9
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-4-.jpeg"
+          ],
+          "nota": "Lateral do recorte da piscina (casa em L informada pelo usuário)"
+        },
+        {
+          "id": "t-p5",
+          "de": [
+            0.1,
+            2.9
+          ],
+          "para": [
+            9.9,
+            2.9
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [
+            {
+              "id": "t-p5-vao-esq",
+              "tipo": "vao",
+              "posicao": 1.55,
+              "largura": 2.5,
+              "altura": 2.5,
+              "peitoril": 0,
+              "origem": "suposto",
+              "nota": "Vão livre entre pilares (x 0,4–2,9); a parede dos fundos da casa fecha o trecho central"
+            },
+            {
+              "id": "t-p5-vao-dir",
+              "tipo": "vao",
+              "posicao": 8.2,
+              "largura": 2.6,
+              "altura": 2.5,
+              "peitoril": 0,
+              "origem": "suposto",
+              "nota": "Vão livre entre pilares (x 7,0–9,6); a parede dos fundos da casa fecha o trecho central"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-2-.jpeg",
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58.jpeg"
+          ],
+          "nota": "Frente da edícula: vãos com pilares nas pontas; no trecho x 2,9–7,0 é parede cheia, que é também a parede dos fundos da casa (t-p10 original fundida aqui)"
+        },
+        {
+          "id": "t-p6",
+          "de": [
+            9.9,
+            2.9
+          ],
+          "para": [
+            9.9,
+            0.1
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [],
+          "nota": "Lateral direita da edícula"
+        },
+        {
+          "id": "t-p7",
+          "de": [
+            9.9,
+            0.1
+          ],
+          "para": [
+            0.1,
+            0.1
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "medido",
+          "fontes": [
+            "medidas.md"
+          ],
+          "nota": "Fundo da edícula, colado no muro do fundo, de divisa a divisa (informado)"
+        },
+        {
+          "id": "t-p8",
+          "de": [
+            0.1,
+            0.1
+          ],
+          "para": [
+            0.1,
+            2.9
+          ],
+          "espessura": 0.2,
+          "materialEsquerda": "pintura-branca",
+          "materialDireita": "pintura-fachada",
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "medido",
+          "fontes": [],
+          "nota": "Lateral esquerda da edícula, na divisa do lote (informado); fecha o fim do corredor lateral"
+        },
+        {
+          "id": "t-p14",
+          "de": [
+            9.9,
+            19.9
+          ],
+          "para": [
+            5,
+            19.9
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p14-j-sala",
+              "tipo": "janela",
+              "posicao": 2.45,
+              "largura": 1.5,
+              "altura": 1.2,
+              "peitoril": 1,
+              "estilo": "correr",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-1-.jpeg"
+              ],
+              "nota": "Janela de correr da sala para a garagem, perto do canto da porta de vidro; medidas estimadas pela foto"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p15",
+          "de": [
+            5,
+            19.9
+          ],
+          "para": [
+            5,
+            17.5
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p15-porta-vidro",
+              "tipo": "porta",
+              "posicao": 0.85,
+              "largura": 1.6,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "correr",
+              "material": "vidro",
+              "origem": "suposto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-1-.jpeg"
+              ],
+              "nota": "Porta de vidro de correr de 2 folhas; largura 1,6 m e posição no centro da parede são valores típicos (suposição)"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p16",
+          "de": [
+            5,
+            17.5
+          ],
+          "para": [
+            1.1,
+            17.5
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p17",
+          "de": [
+            1.1,
+            17.5
+          ],
+          "para": [
+            1.1,
+            12.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p17-j-cozinha",
+              "tipo": "janela",
+              "posicao": 2.45,
+              "largura": 1.2,
+              "altura": 1,
+              "peitoril": 1.1,
+              "estilo": "correr",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57.jpeg",
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-2-.jpeg"
+              ],
+              "nota": "Janela sobre a pia da cozinha, voltada para o corredor lateral"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p18",
+          "de": [
+            1.1,
+            12.6
+          ],
+          "para": [
+            2.3,
+            12.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p18-porta-cozinha",
+              "tipo": "porta",
+              "posicao": 0.55,
+              "largura": 0.7,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57.jpeg",
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.56.jpeg",
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3-.jpeg"
+              ],
+              "nota": "Porta de madeira da cozinha para o corredor de serviço (ao lado da torre do forno)"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p19",
+          "de": [
+            2.3,
+            12.6
+          ],
+          "para": [
+            2.3,
+            6.2
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p19-j-quarto1",
+              "tipo": "janela",
+              "posicao": 1.686,
+              "largura": 1.2,
+              "altura": 1.2,
+              "peitoril": 1,
+              "estilo": "correr",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.59.jpeg",
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3-.jpeg"
+              ],
+              "nota": "Janela do quarto voltada para o corredor (vista do muro com concertina)"
+            },
+            {
+              "id": "t-p19-j-quarto2",
+              "tipo": "janela",
+              "posicao": 4.46,
+              "largura": 1.2,
+              "altura": 1.2,
+              "peitoril": 1,
+              "estilo": "correr",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.59-2-.jpeg",
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3-.jpeg"
+              ],
+              "nota": "Janela com persiana vertical voltada para o corredor"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p20",
+          "de": [
+            2.3,
+            6.2
+          ],
+          "para": [
+            3,
+            6.2
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p21",
+          "de": [
+            3,
+            6.2
+          ],
+          "para": [
+            3,
+            2.9
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p21-j-banho-suite",
+              "tipo": "janela",
+              "posicao": 2.1,
+              "largura": 0.6,
+              "altura": 0.6,
+              "peitoril": 1.5,
+              "estilo": "basculante",
+              "origem": "suposto",
+              "nota": "Basculante do banheiro da suíte, voltado para o corredor (valor típico)"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p22",
+          "de": [
+            2.3,
+            12.6
+          ],
+          "para": [
+            5.3,
+            12.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p23",
+          "de": [
+            5.3,
+            12.6
+          ],
+          "para": [
+            5.3,
+            9.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p23-porta-quarto1",
+              "tipo": "porta",
+              "posicao": 1.637,
+              "largura": 0.8,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "origem": "suposto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.59-1-.jpeg"
+              ],
+              "nota": "Porta de madeira do quarto para o corredor interno; posição suposta"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p24",
+          "de": [
+            5.3,
+            9.6
+          ],
+          "para": [
+            2.3,
+            9.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p26",
+          "de": [
+            6.9,
+            10.6
+          ],
+          "para": [
+            6.9,
+            8
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p27",
+          "de": [
+            6.9,
+            10.6
+          ],
+          "para": [
+            9.9,
+            10.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p27-porta-fundos",
+              "tipo": "porta",
+              "posicao": 0.674,
+              "largura": 0.8,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "origem": "suposto",
+              "nota": "Porta do cômodo dos fundos (voltado para a piscina); posição suposta"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p28",
+          "de": [
+            8.2,
+            10.6
+          ],
+          "para": [
+            8.2,
+            12.7
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p28-porta-banho",
+              "tipo": "porta",
+              "posicao": 1.2,
+              "largura": 0.7,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "origem": "suposto",
+              "nota": "Porta do banheiro (cômodo pequeno 1,7 × 1,8 m); largura típica de banheiro"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p29",
+          "de": [
+            8.2,
+            12.7
+          ],
+          "para": [
+            9.9,
+            12.7
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p31",
+          "de": [
+            6.9,
+            12.7
+          ],
+          "para": [
+            6.9,
+            15.3
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p32",
+          "de": [
+            6.9,
+            15.3
+          ],
+          "para": [
+            9.9,
+            15.3
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p33",
+          "de": [
+            6.9,
+            12.7
+          ],
+          "para": [
+            8.2,
+            12.7
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p33-porta-1",
+              "tipo": "porta",
+              "posicao": 0.65,
+              "largura": 0.8,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "dobradica": "direita",
+              "abrePara": "direita",
+              "origem": "suposto"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p34",
+          "de": [
+            3,
+            6.2
+          ],
+          "para": [
+            6,
+            6.2
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto",
+          "nota": "Divisa quarto da suíte / closet"
+        },
+        {
+          "id": "t-p35",
+          "de": [
+            3,
+            4.6
+          ],
+          "para": [
+            6.9,
+            4.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p35-porta-banheiro-da-suite",
+              "tipo": "porta",
+              "posicao": 3.35,
+              "largura": 0.8,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "dobradica": "direita",
+              "abrePara": "esquerda",
+              "origem": "suposto"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto",
+          "nota": "Divisa closet / banheiro da suíte"
+        },
+        {
+          "id": "t-p38",
+          "de": [
+            5.3,
+            9.6
+          ],
+          "para": [
+            5.3,
+            9.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto"
+        },
+        {
+          "id": "t-p40",
+          "de": [
+            5,
+            17.5
+          ],
+          "para": [
+            5,
+            15.45
+          ],
+          "espessura": 0.15,
+          "altura": 1.05,
+          "aberturas": [],
+          "tipo": "mureta",
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.56.jpeg",
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57.jpeg"
+          ],
+          "nota": "Divisória da cozinha americana (informado): mureta/bancada baixa entre cozinha e sala, com banquetas; altura de 1,05 m estimada pela foto"
+        },
+        {
+          "id": "t-p41",
+          "de": [
+            7,
+            0.1
+          ],
+          "para": [
+            7,
+            1.35
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Lateral esquerda do depósito, colado na t-p7"
+        },
+        {
+          "id": "t-p42",
+          "de": [
+            6.05,
+            0.1
+          ],
+          "para": [
+            6.05,
+            1.45
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Divisória depósito/lavabo"
+        },
+        {
+          "id": "t-p43",
+          "de": [
+            5.2,
+            0.1
+          ],
+          "para": [
+            5.2,
+            1.35
+          ],
+          "espessura": 0.15,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Lateral direita do lavabo; vizinha da escada caracol"
+        },
+        {
+          "id": "t-p44",
+          "de": [
+            5.2,
+            1.35
+          ],
+          "para": [
+            7,
+            1.35
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p44-porta-deposito",
+              "tipo": "porta",
+              "posicao": 1.45,
+              "largura": 0.7,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "abrePara": "direita",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+              ],
+              "nota": "Porta de madeira do depósito, para a área gourmet (foto: duas portas lado a lado)"
+            },
+            {
+              "id": "t-p44-porta-lavabo",
+              "tipo": "porta",
+              "posicao": 0.425,
+              "largura": 0.55,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "abrePara": "direita",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+              ],
+              "nota": "Porta de madeira do lavabo, ao lado da porta do depósito"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Frente do depósito e do lavabo, com as duas portas da foto"
+        },
+        {
+          "id": "t-p45",
+          "de": [
+            5.3,
+            9.6
+          ],
+          "para": [
+            6.9,
+            9.6
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "t-p45-porta-corredor-hall",
+              "tipo": "porta",
+              "posicao": 0.8,
+              "largura": 0.8,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "dobradica": "direita",
+              "abrePara": "esquerda",
+              "origem": "suposto"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        }
+      ],
+      "comodos": [
+        {
+          "id": "t-c-deposito",
+          "nome": "Depósito",
+          "tipo": "despensa",
+          "poligono": [
+            [
+              6.05,
+              0.1
+            ],
+            [
+              7,
+              0.1
+            ],
+            [
+              7,
+              1.35
+            ],
+            [
+              6.05,
+              1.45
+            ]
+          ],
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Pequeno depósito colado na t-p7 (informado), com porta de madeira para a área gourmet; reduzidos para dar lugar à escada no canto leste, junto à piscina (informado)"
+        },
+        {
+          "id": "t-c-lavabo",
+          "nome": "Lavabo",
+          "tipo": "lavabo",
+          "poligono": [
+            [
+              5.2,
+              0.1
+            ],
+            [
+              6.05,
+              0.1
+            ],
+            [
+              6.05,
+              1.45
+            ],
+            [
+              5.2,
+              1.35
+            ]
+          ],
+          "piso": "porcelanato-branco",
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Lavabo colado na t-p7 (informado), ao lado do depósito; reduzidos para dar lugar à escada no canto leste, junto à piscina (informado)"
+        },
+        {
+          "id": "t-c-lavanderia",
+          "nome": "Lavanderia / área de serviço",
+          "tipo": "area-servico",
+          "poligono": [
+            [
+              1.1,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              6.2
+            ],
+            [
+              1.1,
+              6.2
+            ]
+          ],
+          "piso": "ceramica-creme",
+          "semTeto": true,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3--3.jpeg"
+          ],
+          "nota": "Recuo lateral esquerdo atrás da casa, junto à parede t-p21 (x = 3; informado), com tanque duplo, máquina de lavar e parede de pastilha, como na foto; aberta para o corredor lateral; tamanho e posição estimados"
+        },
+        {
+          "id": "t-c-sala",
+          "nome": "Sala / Jantar",
+          "tipo": "sala",
+          "poligono": [
+            [
+              5,
+              19.9
+            ],
+            [
+              9.9,
+              19.9
+            ],
+            [
+              9.9,
+              15.3
+            ],
+            [
+              5.126,
+              15.446
+            ],
+            [
+              5,
+              17.5
+            ]
+          ],
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.56.jpeg",
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-1-.jpeg"
+          ],
+          "nota": "Integrada à cozinha (aberta em x = 5, z 15,3–17,5); janelas na t-p14 e porta de vidro na t-p15"
+        },
+        {
+          "id": "t-c-cozinha",
+          "nome": "Cozinha",
+          "tipo": "cozinha",
+          "poligono": [
+            [
+              1.1,
+              12.6
+            ],
+            [
+              1.1,
+              17.5
+            ],
+            [
+              5,
+              17.5
+            ],
+            [
+              5.126,
+              15.441
+            ],
+            [
+              5,
+              15.45
+            ],
+            [
+              5.114,
+              12.6
+            ]
+          ],
+          "piso": "porcelanato-branco",
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57.jpeg",
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.56.jpeg"
+          ],
+          "nota": "Bancada em U com granito preto, torre do forno e janela sobre a pia (t-p17)"
+        },
+        {
+          "id": "t-c-corredor",
+          "nome": "Corredor / Hall",
+          "tipo": "corredor",
+          "poligono": [
+            [
+              6.9,
+              15.3
+            ],
+            [
+              6.9,
+              12.7
+            ],
+            [
+              8.2,
+              12.7
+            ],
+            [
+              8.2,
+              10.6
+            ],
+            [
+              6.9,
+              10.6
+            ],
+            [
+              6.9,
+              8.001
+            ],
+            [
+              5.3,
+              9.6
+            ],
+            [
+              5.3,
+              12.6
+            ],
+            [
+              5.115,
+              12.601
+            ],
+            [
+              5,
+              15.45
+            ]
+          ],
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [],
+          "nota": "Distribui para 3 quartos, banheiro social e suíte; formato segue as paredes desenhadas"
+        },
+        {
+          "id": "t-c-quarto1",
+          "nome": "Quarto 1",
+          "tipo": "quarto",
+          "poligono": [
+            [
+              2.3,
+              9.6
+            ],
+            [
+              5.3,
+              9.6
+            ],
+            [
+              5.3,
+              12.6
+            ],
+            [
+              2.3,
+              12.6
+            ]
+          ],
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.59.jpeg"
+          ],
+          "nota": "Porta na t-p23, janela na t-p19"
+        },
+        {
+          "id": "t-c-quarto2",
+          "nome": "Quarto 2",
+          "tipo": "quarto",
+          "poligono": [
+            [
+              6.9,
+              12.7
+            ],
+            [
+              9.9,
+              12.7
+            ],
+            [
+              9.9,
+              15.3
+            ],
+            [
+              6.9,
+              15.3
+            ]
+          ],
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.56.jpeg"
+          ],
+          "nota": "Porta frisada com arco vista no fundo da sala"
+        },
+        {
+          "id": "t-c-quarto3",
+          "nome": "Quarto 3",
+          "tipo": "quarto",
+          "poligono": [
+            [
+              6.9,
+              8
+            ],
+            [
+              9.9,
+              8
+            ],
+            [
+              9.9,
+              10.6
+            ],
+            [
+              6.9,
+              10.6
+            ]
+          ],
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [],
+          "nota": "Voltado para a piscina (janela t-p3); porta na t-p27"
+        },
+        {
+          "id": "t-c-banho-social",
+          "nome": "Banheiro social",
+          "tipo": "banheiro",
+          "poligono": [
+            [
+              8.2,
+              10.6
+            ],
+            [
+              9.9,
+              10.6
+            ],
+            [
+              9.9,
+              12.7
+            ],
+            [
+              8.2,
+              12.7
+            ]
+          ],
+          "piso": "porcelanato-branco",
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [],
+          "nota": "Porta na t-p28"
+        },
+        {
+          "id": "t-c-suite",
+          "nome": "Suíte",
+          "tipo": "suite",
+          "poligono": [
+            [
+              2.3,
+              6.2
+            ],
+            [
+              5.6,
+              6.2
+            ],
+            [
+              5.6,
+              4.6
+            ],
+            [
+              6.9,
+              4.6
+            ],
+            [
+              6.9,
+              8
+            ],
+            [
+              5.3,
+              9.6
+            ],
+            [
+              5.3,
+              9.6
+            ],
+            [
+              2.3,
+              9.6
+            ]
+          ],
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.59-1-.jpeg",
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.59-2-.jpeg"
+          ],
+          "nota": "Quarto da suíte; a área segue até a porta do banheiro (t-p35, x 5,95–6,75), incluindo a faixa x 5,6–6,9 / z 4,6–6,2 e a ponta x 5,3–6,9 / z 6,2–8 (informado); sem parede em x = 5,3 entre z 6,2 e 8"
+        },
+        {
+          "id": "t-c-closet",
+          "nome": "Closet da suíte",
+          "tipo": "closet",
+          "poligono": [
+            [
+              3,
+              4.6
+            ],
+            [
+              5.6,
+              4.6
+            ],
+            [
+              5.6,
+              6.2
+            ],
+            [
+              3,
+              6.2
+            ]
+          ],
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.59-3-.jpeg"
+          ],
+          "nota": "Área do closet reduzida a x 3–5,6 (onde ficam os módulos), para não incluir a porta do banheiro da suíte (informado); lado leste sem parede"
+        },
+        {
+          "id": "t-c-banho-suite",
+          "nome": "Banheiro da suíte",
+          "tipo": "banheiro",
+          "poligono": [
+            [
+              3,
+              2.9
+            ],
+            [
+              6.9,
+              2.9
+            ],
+            [
+              6.9,
+              4.6
+            ],
+            [
+              3,
+              4.6
+            ]
+          ],
+          "piso": "porcelanato-branco",
+          "semTeto": false,
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.59-4-.jpeg"
+          ],
+          "nota": "Cuba de apoio e box de vidro; lado leste (x = 5,5) sem parede"
+        },
+        {
+          "id": "t-c-gourmet",
+          "nome": "Edícula / Área gourmet",
+          "tipo": "gourmet",
+          "poligono": [
+            [
+              0.1,
+              0.1
+            ],
+            [
+              0.1,
+              2.9
+            ],
+            [
+              9.9,
+              2.9
+            ],
+            [
+              9.9,
+              0.1
+            ],
+            [
+              7,
+              0.1
+            ],
+            [
+              7,
+              1.35
+            ],
+            [
+              6.05,
+              1.45
+            ],
+            [
+              5.2,
+              1.35
+            ],
+            [
+              5.2,
+              0.1
+            ]
+          ],
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-4-.jpeg"
+          ],
+          "nota": "Térreo da edícula (quarto em cima); frente aberta com pilares na t-p5"
+        }
+      ],
+      "escadas": [
+        {
+          "id": "t-e1",
+          "forma": "caracol",
+          "inicio": [
+            8.9,
+            1.9
+          ],
+          "direcaoGraus": 0,
+          "largura": 0.85,
+          "comprimento": 3.6,
+          "paraAndar": "s",
+          "material": "ferro-preto",
+          "origem": "estimado-foto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Escada espiral metálica preta no canto sudeste da edícula (x 8,05–9,75; z 1,05–2,75): o início (pé) fica do lado da frente, colado na piscina, e a escada sobe para o fundo da edícula (informado); raio estimado; toda de ferro preto (degraus em chapa e poste central), sem base de concreto (informado)"
+        }
+      ],
+      "vazios": []
+    },
+    {
+      "id": "s",
+      "nome": "Superior (edícula)",
+      "nivel": 2.82,
+      "peDireito": 2.6,
+      "laje": 0.12,
+      "paredes": [
+        {
+          "id": "s-p1",
+          "de": [
+            0.1,
+            0.1
+          ],
+          "para": [
+            9.9,
+            0.1
+          ],
+          "espessura": 0.2,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Parede do quarto da edícula, em toda a extensão do térreo (informado)"
+        },
+        {
+          "id": "s-p2",
+          "de": [
+            9.9,
+            0.1
+          ],
+          "para": [
+            9.9,
+            2.9
+          ],
+          "espessura": 0.2,
+          "aberturas": [
+            {
+              "id": "s-p2-j-quarto",
+              "tipo": "janela",
+              "posicao": 0.7,
+              "largura": 1.2,
+              "altura": 1.2,
+              "peitoril": 1,
+              "estilo": "correr",
+              "origem": "suposto",
+              "fontes": [],
+              "nota": "Janela de correr na parede leste do quarto da edícula, a pedido do usuário; medidas e posição supostas (centralizada)"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Parede do quarto da edícula, em toda a extensão do térreo (informado)"
+        },
+        {
+          "id": "s-p3",
+          "de": [
+            9.9,
+            2.9
+          ],
+          "para": [
+            0.1,
+            2.9
+          ],
+          "espessura": 0.2,
+          "aberturas": [
+            {
+              "id": "s-p3-j-quarto",
+              "tipo": "janela",
+              "posicao": 1.7,
+              "largura": 2.4,
+              "altura": 1.2,
+              "peitoril": 1,
+              "estilo": "correr",
+              "origem": "estimado-foto",
+              "fontes": [
+                "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+              ],
+              "nota": "Janela grande com grade branca, voltada para a piscina (foto)"
+            },
+            {
+              "id": "s-p3-j-quarto2",
+              "tipo": "janela",
+              "posicao": 5.9,
+              "largura": 2.4,
+              "altura": 1.2,
+              "peitoril": 1,
+              "estilo": "correr",
+              "origem": "suposto",
+              "fontes": [],
+              "nota": "Segunda janela de correr da fachada do quarto da edícula, a pedido do usuário; mesmas medidas da primeira, posição suposta (centro em x = 4,0 m)"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Parede do quarto da edícula, em toda a extensão do térreo (informado)"
+        },
+        {
+          "id": "s-p4",
+          "de": [
+            0.1,
+            2.9
+          ],
+          "para": [
+            0.1,
+            0.1
+          ],
+          "espessura": 0.2,
+          "aberturas": [],
+          "tipo": "parede",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Parede do quarto da edícula, em toda a extensão do térreo (informado)"
+        },
+        {
+          "id": "s-gc1",
+          "de": [
+            8,
+            1
+          ],
+          "para": [
+            8,
+            2.8
+          ],
+          "espessura": 0.05,
+          "altura": 1.1,
+          "aberturas": [],
+          "tipo": "guarda-corpo",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Guarda-corpo de vidro em volta do vazio da escada, com abertura de 0,9 m na chegada"
+        },
+        {
+          "id": "s-gc2",
+          "de": [
+            8,
+            1
+          ],
+          "para": [
+            8.5,
+            1
+          ],
+          "espessura": 0.05,
+          "altura": 1.1,
+          "aberturas": [],
+          "tipo": "guarda-corpo",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Guarda-corpo de vidro em volta do vazio da escada, com abertura de 0,9 m na chegada"
+        },
+        {
+          "id": "s-gc3",
+          "de": [
+            9.4,
+            1
+          ],
+          "para": [
+            9.8,
+            1
+          ],
+          "espessura": 0.05,
+          "altura": 1.1,
+          "aberturas": [],
+          "tipo": "guarda-corpo",
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Guarda-corpo de vidro em volta do vazio da escada, com abertura de 0,9 m na chegada"
+        },
+        {
+          "id": "s-p5",
+          "de": [
+            6.9,
+            0.1
+          ],
+          "para": [
+            6.9,
+            2.9
+          ],
+          "espessura": 0.15,
+          "aberturas": [
+            {
+              "id": "s-p5-porta-quarto-da-edicula",
+              "tipo": "porta",
+              "posicao": 2.1,
+              "largura": 0.8,
+              "altura": 2.1,
+              "peitoril": 0,
+              "estilo": "giro",
+              "dobradica": "direita",
+              "abrePara": "direita",
+              "origem": "suposto"
+            }
+          ],
+          "tipo": "parede",
+          "origem": "suposto"
+        }
+      ],
+      "comodos": [
+        {
+          "id": "s-c-quarto",
+          "nome": "Sala de estudos e mini estúdio de música",
+          "tipo": "escritorio",
+          "poligono": [
+            [
+              0.1,
+              0.1
+            ],
+            [
+              9.9,
+              0.1
+            ],
+            [
+              9.9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              8,
+              2.9
+            ],
+            [
+              0.1,
+              2.9
+            ]
+          ],
+          "semTeto": false,
+          "origem": "suposto",
+          "fontes": [
+            "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+          ],
+          "nota": "Andar de cima da edícula: sala de estudos (mesa grande e 2 cadeiras) e mini estúdio de música (bateria, amplificadores e instrumentos na parede), a pedido do usuário; arranjo estimado"
+        }
+      ],
+      "escadas": [],
+      "vazios": [
+        [
+          [
+            8,
+            1
+          ],
+          [
+            9.8,
+            1
+          ],
+          [
+            9.8,
+            2.8
+          ],
+          [
+            8,
+            2.8
+          ]
+        ]
+      ]
+    }
+  ],
+  "externo": {
+    "lote": [
+      [
+        0,
+        25
+      ],
+      [
+        10,
+        25
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "pisoLote": "grama-esmeralda",
+    "muros": [
+      {
+        "id": "e-pilastra-1",
+        "de": [
+          0.2,
+          23.85
+        ],
+        "para": [
+          0.5,
+          23.85
+        ],
+        "espessura": 0.3,
+        "altura": 2.55,
+        "materialEsquerda": "pintura-fachada",
+        "materialDireita": "pintura-fachada",
+        "aberturas": [],
+        "tipo": "muro",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-1-.jpeg"
+        ],
+        "nota": "Pilastra de apoio do toldo, canto esquerdo da frente (informado: 2 pilastras); seção 0,3 × 0,3 m suposta"
+      },
+      {
+        "id": "e-pilastra-2",
+        "de": [
+          4.85,
+          23.85
+        ],
+        "para": [
+          5.15,
+          23.85
+        ],
+        "espessura": 0.3,
+        "altura": 2.55,
+        "materialEsquerda": "pintura-fachada",
+        "materialDireita": "pintura-fachada",
+        "aberturas": [],
+        "tipo": "muro",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-1-.jpeg"
+        ],
+        "nota": "Pilastra de apoio do toldo, na frente, alinhada com a parede t-p15 (x = 5) (informado); seção 0,3 × 0,3 m suposta"
+      }
+    ],
+    "elementos": [
+      {
+        "id": "e-piscina",
+        "tipo": "piscina",
+        "poligono": [
+          [
+            7.55,
+            5.4
+          ],
+          [
+            7.88,
+            3.7
+          ],
+          [
+            8.26,
+            3.35
+          ],
+          [
+            8.84,
+            3.35
+          ],
+          [
+            9.22,
+            3.7
+          ],
+          [
+            9.55,
+            5.4
+          ],
+          [
+            9.55,
+            6.75
+          ],
+          [
+            9.34,
+            7.46
+          ],
+          [
+            8.88,
+            7.75
+          ],
+          [
+            8.22,
+            7.75
+          ],
+          [
+            7.76,
+            7.46
+          ],
+          [
+            7.55,
+            6.75
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "profundidade": 1.4,
+        "material": "fibra-azul",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-4--2.jpeg"
+        ],
+        "nota": "Piscina de fibra azul, ~3,0 × 4,4 m, cantos arredondados (R ≈ 1 m) conforme a foto de referência; posição no recorte do L atrás à direita"
+      },
+      {
+        "id": "e-calcada-lateral",
+        "tipo": "calcada",
+        "poligono": [
+          [
+            0,
+            2.9
+          ],
+          [
+            1.1,
+            2.9
+          ],
+          [
+            1.1,
+            6.2
+          ],
+          [
+            2.3,
+            6.2
+          ],
+          [
+            2.3,
+            12.6
+          ],
+          [
+            1.1,
+            12.6
+          ],
+          [
+            1.1,
+            24.6
+          ],
+          [
+            0,
+            24.6
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "material": "ceramica-creme",
+        "origem": "estimado-foto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3--3.jpeg"
+        ],
+        "nota": "Calçada de cerâmica creme do corredor lateral esquerdo (da garagem até a edícula)"
+      },
+      {
+        "id": "e-calcada-garagem",
+        "tipo": "calcada",
+        "poligono": [
+          [
+            1.1,
+            17.5
+          ],
+          [
+            5,
+            17.5
+          ],
+          [
+            5,
+            24.6
+          ],
+          [
+            1.1,
+            24.6
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "material": "ceramica-creme",
+        "origem": "estimado-foto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3--3.jpeg"
+        ],
+        "nota": "Garagem coberta pelo toldo: vaga dos carros em cerâmica creme"
+      },
+      {
+        "id": "e-calcada-piscina",
+        "tipo": "calcada",
+        "poligono": [
+          [
+            6.9,
+            2.9
+          ],
+          [
+            10,
+            2.9
+          ],
+          [
+            10,
+            8.1
+          ],
+          [
+            6.9,
+            8.1
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "material": "ceramica-creme",
+        "origem": "estimado-foto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3--3.jpeg"
+        ],
+        "nota": "Calçada de cerâmica creme em volta da piscina; vai até z = 8,1 (sob a parede t-p3) para a borda da piscina (+0,3 m) caber dentro e o recorte da água funcionar"
+      },
+      {
+        "id": "e-calcada-acesso",
+        "tipo": "calcada",
+        "poligono": [
+          [
+            5,
+            19.9
+          ],
+          [
+            6.2,
+            19.9
+          ],
+          [
+            6.2,
+            25
+          ],
+          [
+            5,
+            25
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "material": "ceramica-creme",
+        "origem": "estimado-foto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3--3.jpeg"
+        ],
+        "nota": "Caminho de acesso de cerâmica creme entre a garagem e o jardim, até a porta de vidro da sala"
+      },
+      {
+        "id": "e-canteiro-leste",
+        "tipo": "canteiro",
+        "poligono": [
+          [
+            9.2,
+            20.4
+          ],
+          [
+            10,
+            20.4
+          ],
+          [
+            10,
+            24.8
+          ],
+          [
+            9.2,
+            24.8
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "material": "terra-jardim",
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Canteiro ao longo do muro leste, com arbustos ornamentais"
+      },
+      {
+        "id": "e-canteiro-fachada",
+        "tipo": "canteiro",
+        "poligono": [
+          [
+            6.4,
+            19.9
+          ],
+          [
+            9.9,
+            19.9
+          ],
+          [
+            9.9,
+            20.5
+          ],
+          [
+            6.4,
+            20.5
+          ]
+        ],
+        "rotacaoGraus": 0,
+        "material": "terra-jardim",
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Canteiro junto à fachada, sob a janela da sala"
+      },
+      {
+        "id": "e-arvore-jardim",
+        "tipo": "arvore",
+        "posicao": [
+          8,
+          22.6
+        ],
+        "rotacaoGraus": 0,
+        "altura": 7,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Árvore grande do jardim da frente (a pedido do usuário); espécie e altura supostas"
+      },
+      {
+        "id": "e-arbusto-1",
+        "tipo": "arbusto",
+        "posicao": [
+          9.6,
+          21
+        ],
+        "rotacaoGraus": 0,
+        "altura": 1.1,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-2",
+        "tipo": "arbusto",
+        "posicao": [
+          9.6,
+          22.2
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.9,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-3",
+        "tipo": "arbusto",
+        "posicao": [
+          9.6,
+          23.4
+        ],
+        "rotacaoGraus": 0,
+        "altura": 1.3,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-4",
+        "tipo": "arbusto",
+        "posicao": [
+          9.5,
+          24.5
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.8,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-5",
+        "tipo": "arbusto",
+        "posicao": [
+          6.9,
+          20.2
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.7,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-6",
+        "tipo": "arbusto",
+        "posicao": [
+          8,
+          20.2
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.8,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-7",
+        "tipo": "arbusto",
+        "posicao": [
+          9.2,
+          20.2
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.7,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-8",
+        "tipo": "arbusto",
+        "posicao": [
+          6.8,
+          22
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.9,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-9",
+        "tipo": "arbusto",
+        "posicao": [
+          7,
+          24.4
+        ],
+        "rotacaoGraus": 0,
+        "altura": 1,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-10",
+        "tipo": "arbusto",
+        "posicao": [
+          8.9,
+          23.7
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.8,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      },
+      {
+        "id": "e-arbusto-11",
+        "tipo": "arbusto",
+        "posicao": [
+          6.6,
+          23.3
+        ],
+        "rotacaoGraus": 0,
+        "altura": 0.7,
+        "origem": "suposto",
+        "fontes": [],
+        "nota": "Planta ornamental do jardim da frente (suposta)"
+      }
+    ],
+    "telhados": [
+      {
+        "id": "e-telhado-frente",
+        "tipo": "uma-agua",
+        "contorno": [
+          [
+            4.7,
+            20.2
+          ],
+          [
+            10,
+            20.2
+          ],
+          [
+            10,
+            12.3
+          ],
+          [
+            0.7,
+            12.3
+          ],
+          [
+            0.7,
+            17.8
+          ],
+          [
+            4.7,
+            17.8
+          ]
+        ],
+        "base": 2.82,
+        "inclinacaoGraus": 15,
+        "cumeeiraGraus": 270,
+        "material": "telha-barro",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3-.jpeg"
+        ],
+        "nota": "Telha de barro caindo para a frente (garagem); parte alta na linha z = 12,3, na altura da parede norte da cozinha (t-p22). Divisão, inclinação de 15° e beiral de 0,3 m supostos"
+      },
+      {
+        "id": "e-telhado-fundos",
+        "tipo": "uma-agua",
+        "contorno": [
+          [
+            10,
+            12.3
+          ],
+          [
+            1.7,
+            12.3
+          ],
+          [
+            1.7,
+            6.5
+          ],
+          [
+            2.7,
+            6.5
+          ],
+          [
+            2.7,
+            3.6
+          ],
+          [
+            7.2,
+            3.6
+          ],
+          [
+            7.2,
+            7.7
+          ],
+          [
+            10,
+            7.7
+          ]
+        ],
+        "base": 2.82,
+        "inclinacaoGraus": 15,
+        "cumeeiraGraus": 90,
+        "material": "telha-barro",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-3-.jpeg"
+        ],
+        "nota": "Telha de barro caindo para os fundos; parte alta na mesma linha z = 12,3 (cumeeira compartilhada com o telhado da frente). Recorte da piscina (x 7,2–10, z 3,6–7,7) fica descoberto"
+      },
+      {
+        "id": "e-toldo-garagem",
+        "tipo": "uma-agua",
+        "contorno": [
+          [
+            0.2,
+            17.5
+          ],
+          [
+            5,
+            17.5
+          ],
+          [
+            5,
+            24
+          ],
+          [
+            0.2,
+            24
+          ]
+        ],
+        "base": 2.55,
+        "inclinacaoGraus": 5,
+        "cumeeiraGraus": 270,
+        "material": "telha-barro",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.57-1-.jpeg",
+          "fontes/WhatsApp-Image-2026-10-30-at-12.38.00-1-.jpeg"
+        ],
+        "nota": "Toldo sobre os carros do lado esquerdo da garagem, ligado à parede t-p16 (z = 17,5) e terminando ~1 m antes do portão/rua (z = 24), com borda direita alinhada à t-p15 (x = 5); o resto da frente (x 5–9,8) fica aberto para sol e ventilação (informado). Mesma telha de barro do telhado (informado). Apoiado na frente por 2 pilastras (e-pilastra-1/2). Altura de 2,55 m na borda da frente e inclinação de 5° supostas"
+      },
+      {
+        "id": "e-telhado-edicula",
+        "tipo": "uma-agua",
+        "contorno": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            10,
+            3.1
+          ],
+          [
+            0,
+            3.1
+          ]
+        ],
+        "base": 5.42,
+        "inclinacaoGraus": 10,
+        "cumeeiraGraus": 270,
+        "material": "telha-barro",
+        "origem": "suposto",
+        "fontes": [
+          "fontes/WhatsApp-Image-2026-10-30-at-12.37.58-1--3.jpeg"
+        ],
+        "nota": "Telhado do quarto da edícula, em toda a extensão (andar s); 10° e beiral supostos"
+      }
+    ]
+  },
+  "moveis": [
+    {
+      "id": "m-tampo-marmore-t-p40",
+      "nome": "Tampo de mármore preto da divisória (cozinha americana)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.45,
+        2,
+        0.04
+      ],
+      "andar": "t",
+      "posicao": [
+        4.9,
+        16.4
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.05,
+      "cor": "#1b1b1f",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-torre-forno",
+      "nome": "Torre quente (micro-ondas + forno elétrico), planejada",
+      "forma": "armario",
+      "dimensoes": [
+        0.6,
+        0.6,
+        2.1
+      ],
+      "andar": "t",
+      "posicao": [
+        1.48,
+        13.85
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "cor": "#cdb893",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-bancada-pia",
+      "nome": "Balcão baixo sob a janela (pia com 2 cubas), planejado",
+      "forma": "caixa",
+      "dimensoes": [
+        2.2,
+        0.58,
+        0.88
+      ],
+      "andar": "t",
+      "posicao": [
+        1.47,
+        15.25
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "cor": "#cdb893",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-tampo-granito",
+      "nome": "Tampo de granito preto da bancada da pia",
+      "forma": "caixa",
+      "dimensoes": [
+        2.2,
+        0.62,
+        0.04
+      ],
+      "andar": "t",
+      "posicao": [
+        1.49,
+        15.25
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0.88,
+      "cor": "#1f1f22",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-fogao",
+      "ref": "fogao-4-bocas",
+      "nome": "Fogão de 4 bocas",
+      "andar": "t",
+      "posicao": [
+        1.5,
+        16.6
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-aereos",
+      "nome": "Armários aéreos com portas de vidro verde (planejados)",
+      "forma": "caixa",
+      "dimensoes": [
+        1.6,
+        0.35,
+        0.7
+      ],
+      "andar": "t",
+      "posicao": [
+        1.36,
+        16.55
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 1.5,
+      "cor": "#cdb893",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-bancada-sul",
+      "nome": "Balcão baixo da parede t-p16 (canto da cozinha), planejado",
+      "forma": "caixa",
+      "dimensoes": [
+        3.75,
+        0.56,
+        0.88
+      ],
+      "andar": "t",
+      "posicao": [
+        3.05,
+        17.145
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#cdb893",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-tampo-granito-sul",
+      "nome": "Tampo de granito preto do balcão da t-p16",
+      "forma": "caixa",
+      "dimensoes": [
+        3.5,
+        0.6,
+        0.04
+      ],
+      "andar": "t",
+      "posicao": [
+        2.925,
+        17.13
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0.88,
+      "cor": "#1f1f22",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-aereos-sul",
+      "nome": "Armários aéreos da parede t-p16, planejados",
+      "forma": "caixa",
+      "dimensoes": [
+        1.6,
+        0.35,
+        0.7
+      ],
+      "andar": "t",
+      "posicao": [
+        2.45,
+        17.25
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 1.5,
+      "cor": "#cdb893",
+      "meu": false
+    },
+    {
+      "id": "m-cozinha-geladeira",
+      "ref": "geladeira",
+      "nome": "Geladeira, encostada na parede t-p22",
+      "andar": "t",
+      "posicao": [
+        3.5,
+        13.05
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-banho-social-box",
+      "ref": "box-chuveiro",
+      "nome": "Box de chuveiro 0,70 × 0,90 (banheiro social, estreito por causa da porta)",
+      "dimensoes": [
+        0.7,
+        0.9,
+        2
+      ],
+      "andar": "t",
+      "posicao": [
+        9.45,
+        11.125
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-banho-social-vaso",
+      "ref": "vaso-sanitario",
+      "nome": "Vaso sanitário (banheiro social)",
+      "andar": "t",
+      "posicao": [
+        9.475,
+        12
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-banho-social-lavatorio",
+      "ref": "lavatorio",
+      "nome": "Gabinete com cuba (banheiro social)",
+      "andar": "t",
+      "posicao": [
+        8.6,
+        10.9
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-banho-social-armario",
+      "nome": "Armário aéreo / espelheira (banheiro social)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.5,
+        0.15,
+        0.6
+      ],
+      "andar": "t",
+      "posicao": [
+        8.6,
+        10.755
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.3,
+      "cor": "#d9d3c8",
+      "meu": false
+    },
+    {
+      "id": "m-banho-suite-box",
+      "ref": "box-chuveiro",
+      "nome": "Box de chuveiro de vidro (banheiro da suíte)",
+      "andar": "t",
+      "posicao": [
+        3.55,
+        3.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-banho-suite-vaso",
+      "ref": "vaso-sanitario",
+      "nome": "Vaso sanitário (banheiro da suíte)",
+      "andar": "t",
+      "posicao": [
+        4.4,
+        3.325
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-banho-suite-lavatorio",
+      "ref": "lavatorio",
+      "nome": "Gabinete com cuba de apoio e tampo preto (banheiro da suíte)",
+      "andar": "t",
+      "posicao": [
+        5,
+        3.225
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#8a6a4a",
+      "meu": false
+    },
+    {
+      "id": "m-banho-suite-armario",
+      "nome": "Armário aéreo / espelheira oval (banheiro da suíte)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.5,
+        0.15,
+        0.6
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        3.075
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.3,
+      "cor": "#d9d3c8",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-fundo",
+      "nome": "Closet, lado sul: fundo",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.02,
+        2.4
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        6.115
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-lateral-1",
+      "nome": "Closet, lado sul: lateral",
+      "forma": "caixa",
+      "dimensoes": [
+        0.02,
+        0.4,
+        2.4
+      ],
+      "andar": "t",
+      "posicao": [
+        3.085,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-lateral-2",
+      "nome": "Closet, lado sul: lateral",
+      "forma": "caixa",
+      "dimensoes": [
+        0.02,
+        0.4,
+        2.4
+      ],
+      "andar": "t",
+      "posicao": [
+        5.54,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-prateleira-1",
+      "nome": "Closet, lado sul: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.4,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-prateleira-2",
+      "nome": "Closet, lado sul: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.8,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-prateleira-3",
+      "nome": "Closet, lado sul: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.9,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-prateleira-4",
+      "nome": "Closet, lado sul: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 2.15,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-prateleira-5",
+      "nome": "Closet, lado sul: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 2.38,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-sul-cabideiro",
+      "nome": "Closet, lado sul: cabideiro",
+      "forma": "caixa",
+      "dimensoes": [
+        2.435,
+        0.03,
+        0.03
+      ],
+      "andar": "t",
+      "posicao": [
+        4.312,
+        5.925
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.72,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-fundo",
+      "nome": "Closet, lado norte: fundo",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.02,
+        2.4
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.685
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-lateral-1",
+      "nome": "Closet, lado norte: lateral",
+      "forma": "caixa",
+      "dimensoes": [
+        0.02,
+        0.4,
+        2.4
+      ],
+      "andar": "t",
+      "posicao": [
+        4.46,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-lateral-2",
+      "nome": "Closet, lado norte: lateral",
+      "forma": "caixa",
+      "dimensoes": [
+        0.02,
+        0.4,
+        2.4
+      ],
+      "andar": "t",
+      "posicao": [
+        5.54,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-prateleira-1",
+      "nome": "Closet, lado norte: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.4,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-prateleira-2",
+      "nome": "Closet, lado norte: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.8,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-prateleira-3",
+      "nome": "Closet, lado norte: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.9,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-prateleira-4",
+      "nome": "Closet, lado norte: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 2.15,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-prateleira-5",
+      "nome": "Closet, lado norte: prateleira aberta",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.36,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 2.38,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-closet-norte-cabideiro",
+      "nome": "Closet, lado norte: cabideiro",
+      "forma": "caixa",
+      "dimensoes": [
+        1.06,
+        0.03,
+        0.03
+      ],
+      "andar": "t",
+      "posicao": [
+        5,
+        4.875
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.72,
+      "cor": "#ddd2b6",
+      "meu": false
+    },
+    {
+      "id": "m-lav-tanque",
+      "nome": "Tanque duplo de lavar roupa (alvenaria), encostado na t-p21, sob a janela do banheiro",
+      "forma": "caixa",
+      "dimensoes": [
+        0.55,
+        1.2,
+        0.85
+      ],
+      "andar": "t",
+      "posicao": [
+        2.65,
+        4.05
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#c9bfa8",
+      "meu": false
+    },
+    {
+      "id": "m-lav-cubas",
+      "nome": "Cubas do tanque duplo",
+      "forma": "caixa",
+      "dimensoes": [
+        0.5,
+        1.1,
+        0.04
+      ],
+      "andar": "t",
+      "posicao": [
+        2.65,
+        4.05
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.85,
+      "cor": "#9a968c",
+      "meu": false
+    },
+    {
+      "id": "m-lav-pastilha",
+      "nome": "Revestimento de pastilha na parede do tanque (até 1,35 m)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.02,
+        1.6,
+        1.35
+      ],
+      "andar": "t",
+      "posicao": [
+        2.915,
+        4.05
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#b99f6e",
+      "meu": false
+    },
+    {
+      "id": "m-lav-prateleira",
+      "nome": "Prateleira branca sobre o tanque",
+      "forma": "caixa",
+      "dimensoes": [
+        0.2,
+        1,
+        0.03
+      ],
+      "andar": "t",
+      "posicao": [
+        2.825,
+        4.05
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.4,
+      "cor": "#f4f4f2",
+      "meu": false
+    },
+    {
+      "id": "m-lav-maquina",
+      "ref": "maquina-lavar",
+      "nome": "Máquina de lavar roupa",
+      "andar": "t",
+      "posicao": [
+        2.595,
+        5.35
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-churrasqueira-base",
+      "nome": "Churrasqueira de alvenaria: bancada/base, encostada na t-p8",
+      "forma": "caixa",
+      "dimensoes": [
+        0.7,
+        1.2,
+        0.9
+      ],
+      "andar": "t",
+      "posicao": [
+        0.55,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#a8734f",
+      "meu": false
+    },
+    {
+      "id": "m-churrasqueira-coifa",
+      "nome": "Churrasqueira: coifa",
+      "forma": "caixa",
+      "dimensoes": [
+        0.6,
+        1.2,
+        0.6
+      ],
+      "andar": "t",
+      "posicao": [
+        0.5,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.6,
+      "cor": "#a8734f",
+      "meu": false
+    },
+    {
+      "id": "m-churrasqueira-chamine",
+      "nome": "Churrasqueira: chaminé",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.5
+      ],
+      "andar": "t",
+      "posicao": [
+        0.4,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 2.2,
+      "cor": "#a8734f",
+      "meu": false
+    },
+    {
+      "id": "m-lavabo-vaso",
+      "ref": "vaso-sanitario",
+      "nome": "Vaso sanitário (lavabo)",
+      "andar": "t",
+      "posicao": [
+        5.65,
+        0.6
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-lavabo-lavatorio",
+      "ref": "lavatorio",
+      "nome": "Gabinete com cuba (lavabo)",
+      "dimensoes": [
+        0.6,
+        0.3,
+        0.85
+      ],
+      "andar": "t",
+      "posicao": [
+        6.525,
+        0.75
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-sofa",
+      "ref": "sofa-3-lugares",
+      "nome": "Sofá 3 lugares verde-floresta",
+      "andar": "t",
+      "posicao": [
+        8,
+        19.375
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#4a5d3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-tapete",
+      "nome": "Tapete cru",
+      "forma": "tapete",
+      "dimensoes": [
+        2.6,
+        1.7,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        8,
+        17.8
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#cdbf9a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-mesa-centro",
+      "nome": "Mesa de centro de madeira",
+      "forma": "caixa",
+      "dimensoes": [
+        1,
+        0.6,
+        0.38
+      ],
+      "andar": "t",
+      "posicao": [
+        8,
+        17.9
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-rack",
+      "ref": "rack-tv-55",
+      "nome": "Rack com TV, nogueira",
+      "andar": "t",
+      "posicao": [
+        8.4,
+        15.6
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-poltrona",
+      "nome": "Poltrona mostarda vintage",
+      "forma": "sofa",
+      "dimensoes": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "andar": "t",
+      "posicao": [
+        9.4,
+        17
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#c79a3b",
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-planta1",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.2
+      ],
+      "andar": "t",
+      "posicao": [
+        9.55,
+        15.7
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-sala-planta2",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.2
+      ],
+      "andar": "t",
+      "posicao": [
+        9.5,
+        19.45
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-coz-mesa",
+      "ref": "mesa-jantar-4",
+      "nome": "Mesa de jantar 4 lugares, madeira",
+      "andar": "t",
+      "posicao": [
+        3.4,
+        15.2
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-coz-cadeira1",
+      "ref": "cadeira",
+      "nome": "Cadeira 1",
+      "andar": "t",
+      "posicao": [
+        3.4,
+        14.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#7a8450",
+      "meu": false
+    },
+    {
+      "id": "m-dec-coz-cadeira2",
+      "ref": "cadeira",
+      "nome": "Cadeira 2",
+      "andar": "t",
+      "posicao": [
+        3.4,
+        15.95
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#c79a3b",
+      "meu": false
+    },
+    {
+      "id": "m-dec-coz-cadeira3",
+      "ref": "cadeira",
+      "nome": "Cadeira 3",
+      "andar": "t",
+      "posicao": [
+        2.55,
+        15.2
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-coz-cadeira4",
+      "ref": "cadeira",
+      "nome": "Cadeira 4",
+      "andar": "t",
+      "posicao": [
+        4.25,
+        15.2
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#4a5d3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-coz-planta",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        0.9
+      ],
+      "andar": "t",
+      "posicao": [
+        4.6,
+        13.1
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q1-cama",
+      "ref": "cama-solteiro",
+      "nome": "Cama de solteiro, linho verde-oliva",
+      "andar": "t",
+      "posicao": [
+        2.9,
+        10.615
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#7a8450",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q1-guarda-roupa",
+      "ref": "guarda-roupa-solteiro",
+      "nome": "Guarda-roupa solteiro, madeira clara",
+      "dimensoes": [
+        1,
+        0.55,
+        2.1
+      ],
+      "andar": "t",
+      "posicao": [
+        4.95,
+        12
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q1-escrivaninha",
+      "ref": "escrivaninha",
+      "nome": "Escrivaninha de madeira",
+      "andar": "t",
+      "posicao": [
+        3.6,
+        12.22
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q1-cadeira",
+      "ref": "cadeira",
+      "nome": "Cadeira da escrivaninha",
+      "andar": "t",
+      "posicao": [
+        3.6,
+        11.6
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q1-planta",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        0.9
+      ],
+      "andar": "t",
+      "posicao": [
+        2.65,
+        12.25
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q2-cama",
+      "ref": "cama-casal",
+      "nome": "Cama de casal, roupa de cama creme",
+      "dimensoes": [
+        1.38,
+        1.84,
+        0.5
+      ],
+      "andar": "t",
+      "posicao": [
+        8.88,
+        13.65
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#d9ccb0",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q2-criado",
+      "nome": "Criado-mudo de madeira",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.45
+      ],
+      "andar": "t",
+      "posicao": [
+        9.55,
+        14.6
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q2-guarda-roupa",
+      "ref": "guarda-roupa-casal",
+      "nome": "Guarda-roupa casal, nogueira",
+      "andar": "t",
+      "posicao": [
+        8.2,
+        14.935
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q2-planta",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        0.9
+      ],
+      "andar": "t",
+      "posicao": [
+        7.3,
+        14.3
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q3-cama",
+      "ref": "cama-casal",
+      "nome": "Cama de casal, roupa de cama verde-sálvia",
+      "andar": "t",
+      "posicao": [
+        8.75,
+        9.04
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#a9b48a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q3-criado1",
+      "nome": "Criado-mudo de madeira",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.45
+      ],
+      "andar": "t",
+      "posicao": [
+        7.85,
+        8.35
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q3-criado2",
+      "nome": "Criado-mudo de madeira",
+      "forma": "caixa",
+      "dimensoes": [
+        0.36,
+        0.4,
+        0.45
+      ],
+      "andar": "t",
+      "posicao": [
+        9.62,
+        8.35
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-q3-guarda-roupa",
+      "ref": "guarda-roupa-solteiro",
+      "nome": "Guarda-roupa solteiro, madeira clara",
+      "andar": "t",
+      "posicao": [
+        8.9,
+        10.25
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-cama",
+      "ref": "cama-queen",
+      "nome": "Cama queen, roupa de cama creme",
+      "andar": "t",
+      "posicao": [
+        3.9,
+        7.3
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#d9ccb0",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-criado1",
+      "nome": "Criado-mudo de madeira",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.45
+      ],
+      "andar": "t",
+      "posicao": [
+        2.85,
+        6.55
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-criado2",
+      "nome": "Criado-mudo de madeira",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.45
+      ],
+      "andar": "t",
+      "posicao": [
+        4.95,
+        6.55
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-banco",
+      "nome": "Banco de madeira no pé da cama",
+      "forma": "caixa",
+      "dimensoes": [
+        1.5,
+        0.4,
+        0.45
+      ],
+      "andar": "t",
+      "posicao": [
+        3.9,
+        8.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-poltrona",
+      "nome": "Poltrona mostarda vintage",
+      "forma": "sofa",
+      "dimensoes": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "andar": "t",
+      "posicao": [
+        2.78,
+        9
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "cor": "#c79a3b",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-tapete",
+      "nome": "Tapete cru",
+      "forma": "tapete",
+      "dimensoes": [
+        2.4,
+        1.6,
+        0.02
+      ],
+      "andar": "t",
+      "posicao": [
+        3.9,
+        8.1
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#cdbf9a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-suite-planta",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.2
+      ],
+      "andar": "t",
+      "posicao": [
+        4.9,
+        9.15
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-corredor-planta",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.4
+      ],
+      "andar": "t",
+      "posicao": [
+        6.5,
+        15
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-mesa",
+      "ref": "mesa-jantar-6",
+      "nome": "Mesa rústica de madeira (6 lugares)",
+      "andar": "t",
+      "posicao": [
+        3,
+        1.55
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-cadeira1",
+      "ref": "cadeira",
+      "nome": "Cadeira 1",
+      "andar": "t",
+      "posicao": [
+        2.2,
+        1
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "cor": "#7a8450",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-cadeira2",
+      "ref": "cadeira",
+      "nome": "Cadeira 2",
+      "andar": "t",
+      "posicao": [
+        2.2,
+        2.1
+      ],
+      "rotacaoGraus": 270,
+      "elevacao": 0,
+      "cor": "#c79a3b",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-cadeira3",
+      "ref": "cadeira",
+      "nome": "Cadeira 3",
+      "andar": "t",
+      "posicao": [
+        3.8,
+        1
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-cadeira4",
+      "ref": "cadeira",
+      "nome": "Cadeira 4",
+      "andar": "t",
+      "posicao": [
+        3.8,
+        2.1
+      ],
+      "rotacaoGraus": 90,
+      "elevacao": 0,
+      "cor": "#4a5d3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-planta1",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.2
+      ],
+      "andar": "t",
+      "posicao": [
+        1.4,
+        2.55
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-gourmet-planta2",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.2
+      ],
+      "andar": "t",
+      "posicao": [
+        4.7,
+        0.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-estudo-mesa",
+      "ref": "mesa-jantar-6",
+      "nome": "Mesa grande de estudos, madeira",
+      "andar": "s",
+      "posicao": [
+        5,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-estudo-cadeira1",
+      "ref": "cadeira",
+      "nome": "Cadeira de estudos 1",
+      "andar": "s",
+      "posicao": [
+        5,
+        0.7
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#7a8450",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-estudo-cadeira2",
+      "ref": "cadeira",
+      "nome": "Cadeira de estudos 2",
+      "andar": "s",
+      "posicao": [
+        5,
+        2.3
+      ],
+      "rotacaoGraus": 180,
+      "elevacao": 0,
+      "cor": "#c79a3b",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-estudo-estante",
+      "nome": "Estante de livros, nogueira",
+      "forma": "estante",
+      "dimensoes": [
+        1.2,
+        0.3,
+        2
+      ],
+      "andar": "s",
+      "posicao": [
+        6.2,
+        0.37
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#6f4e37",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-planta",
+      "nome": "Planta (folhagem verde)",
+      "forma": "planta",
+      "dimensoes": [
+        0.5,
+        0.5,
+        1.2
+      ],
+      "andar": "s",
+      "posicao": [
+        3.75,
+        2.55
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#4f6b3a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-bumbo",
+      "nome": "Bateria: bumbo",
+      "forma": "caixa",
+      "dimensoes": [
+        0.55,
+        0.6,
+        0.6
+      ],
+      "andar": "s",
+      "posicao": [
+        0.95,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#8c3b2a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-caixa",
+      "nome": "Bateria: caixa",
+      "forma": "caixa",
+      "dimensoes": [
+        0.35,
+        0.35,
+        0.2
+      ],
+      "andar": "s",
+      "posicao": [
+        1.45,
+        1.4
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.55,
+      "cor": "#d8d2c0",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-tom1",
+      "nome": "Bateria: tom 1",
+      "forma": "caixa",
+      "dimensoes": [
+        0.3,
+        0.3,
+        0.2
+      ],
+      "andar": "s",
+      "posicao": [
+        0.95,
+        1.1
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.62,
+      "cor": "#8c3b2a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-tom2",
+      "nome": "Bateria: tom 2",
+      "forma": "caixa",
+      "dimensoes": [
+        0.3,
+        0.3,
+        0.2
+      ],
+      "andar": "s",
+      "posicao": [
+        0.95,
+        1.9
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0.62,
+      "cor": "#8c3b2a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-surdo",
+      "nome": "Bateria: surdo",
+      "forma": "caixa",
+      "dimensoes": [
+        0.45,
+        0.45,
+        0.5
+      ],
+      "andar": "s",
+      "posicao": [
+        1.35,
+        2.05
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#8c3b2a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-haste1",
+      "nome": "Bateria: haste do prato 1",
+      "forma": "caixa",
+      "dimensoes": [
+        0.03,
+        0.03,
+        1.2
+      ],
+      "andar": "s",
+      "posicao": [
+        1.1,
+        0.8
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#333333",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-prato1",
+      "nome": "Bateria: prato 1",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.02
+      ],
+      "andar": "s",
+      "posicao": [
+        1.1,
+        0.8
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.2,
+      "cor": "#c9a24a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-haste2",
+      "nome": "Bateria: haste do prato 2",
+      "forma": "caixa",
+      "dimensoes": [
+        0.03,
+        0.03,
+        1.2
+      ],
+      "andar": "s",
+      "posicao": [
+        1.1,
+        2.2
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#333333",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-prato2",
+      "nome": "Bateria: prato 2",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.4,
+        0.02
+      ],
+      "andar": "s",
+      "posicao": [
+        1.1,
+        2.2
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.2,
+      "cor": "#c9a24a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-bat-banco",
+      "nome": "Banco do baterista",
+      "forma": "caixa",
+      "dimensoes": [
+        0.35,
+        0.35,
+        0.45
+      ],
+      "andar": "s",
+      "posicao": [
+        1.9,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#2f2f2f",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-estudio-tapete",
+      "nome": "Tapete vintage do estúdio",
+      "forma": "tapete",
+      "dimensoes": [
+        2.2,
+        2.3,
+        0.02
+      ],
+      "andar": "s",
+      "posicao": [
+        1.4,
+        1.5
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#8a4b2f",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-amp-guitarra",
+      "nome": "Amplificador de guitarra (combo vintage)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.65,
+        0.3,
+        0.6
+      ],
+      "andar": "s",
+      "posicao": [
+        2.2,
+        0.38
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#d4c29a",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-amp-baixo",
+      "nome": "Amplificador de baixo",
+      "forma": "caixa",
+      "dimensoes": [
+        0.6,
+        0.4,
+        0.9
+      ],
+      "andar": "s",
+      "posicao": [
+        2.95,
+        0.42
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#2e2e2e",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-amp-bateria",
+      "nome": "Amplificador / monitor da bateria",
+      "forma": "caixa",
+      "dimensoes": [
+        0.5,
+        0.4,
+        0.5
+      ],
+      "andar": "s",
+      "posicao": [
+        3.6,
+        0.4
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 0,
+      "cor": "#3b3a36",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-guitarra1",
+      "nome": "Guitarra na parede (madeira natural)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.06,
+        1
+      ],
+      "andar": "s",
+      "posicao": [
+        1.3,
+        0.23
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.2,
+      "cor": "#b08455",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-guitarra2",
+      "nome": "Guitarra na parede (sunburst vintage)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.4,
+        0.06,
+        1
+      ],
+      "andar": "s",
+      "posicao": [
+        1.9,
+        0.23
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.2,
+      "cor": "#a8531f",
+      "meu": false
+    },
+    {
+      "id": "m-dec-s-baixo",
+      "nome": "Baixo na parede (verde-floresta)",
+      "forma": "caixa",
+      "dimensoes": [
+        0.35,
+        0.06,
+        1.1
+      ],
+      "andar": "s",
+      "posicao": [
+        2.5,
+        0.23
+      ],
+      "rotacaoGraus": 0,
+      "elevacao": 1.2,
+      "cor": "#4a5d3a",
+      "meu": false
+    }
+  ],
+  "reformas": [],
+  "observacoes": "Lote 10 × 25 m, frente (rua) embaixo da planta, voltada para o leste. Recuos informados pelo usuário: frente 5 m, fundos 0 m (edícula colada no muro), lateral direita (olhando da rua, x = 10) 0 m, corredor lateral esquerdo (x = 0) 2 m. Casa principal em L, com recorte atrás à direita para a piscina pequena. O anúncio fala em 10 × 30 — confirmar a profundidade.",
+  "editor": {
+    "decalques": [],
+    "cotas": [],
+    "etapaAtual": 5,
+    "comIA": true,
+    "guiado": true,
+    "recuos": {
+      "frente": 5,
+      "lateral": 0,
+      "fundos": 0
+    },
+    "frenteLote": 0
+  }
+}

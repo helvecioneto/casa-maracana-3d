@@ -1,0 +1,281 @@
+[
+  {
+    "id": "box-chuveiro",
+    "nome": "Box de chuveiro 0,90 × 0,90",
+    "forma": "chuveiro",
+    "dimensoes": [
+      0.9,
+      0.9,
+      2
+    ],
+    "cor": "#c9dde3",
+    "meu": false
+  },
+  {
+    "id": "cadeira",
+    "nome": "Cadeira de jantar",
+    "forma": "cadeira",
+    "dimensoes": [
+      0.45,
+      0.5,
+      0.9
+    ],
+    "cor": "#6e5640",
+    "meu": false
+  },
+  {
+    "id": "cama-casal",
+    "nome": "Cama de casal (colchão 1,38 × 1,88)",
+    "forma": "cama",
+    "dimensoes": [
+      1.38,
+      1.88,
+      0.5
+    ],
+    "cor": "#c9b8a0",
+    "meu": false,
+    "nota": "Casal padrão brasileiro 138 × 188 cm."
+  },
+  {
+    "id": "cama-king",
+    "nome": "Cama king (colchão 1,93 × 2,03)",
+    "forma": "cama",
+    "dimensoes": [
+      1.93,
+      2.03,
+      0.55
+    ],
+    "cor": "#c9b8a0",
+    "meu": false,
+    "nota": "King 193 × 203 cm."
+  },
+  {
+    "id": "cama-queen",
+    "nome": "Cama queen (colchão 1,58 × 1,98)",
+    "forma": "cama",
+    "dimensoes": [
+      1.58,
+      1.98,
+      0.55
+    ],
+    "cor": "#c9b8a0",
+    "meu": false,
+    "nota": "Queen 158 × 198 cm."
+  },
+  {
+    "id": "cama-solteiro",
+    "nome": "Cama de solteiro (colchão 0,88 × 1,88)",
+    "forma": "cama",
+    "dimensoes": [
+      0.88,
+      1.88,
+      0.5
+    ],
+    "cor": "#c9b8a0",
+    "meu": false,
+    "nota": "Colchão padrão solteiro 88 × 188 cm; com cabeceira some ~5 cm no comprimento."
+  },
+  {
+    "id": "carro-medio",
+    "nome": "Carro médio (sedã / SUV compacto)",
+    "forma": "carro",
+    "dimensoes": [
+      1.8,
+      4.5,
+      1.5
+    ],
+    "cor": "#5a6b7d",
+    "meu": false,
+    "nota": "Largura sem espelhos; para abrir as portas, deixe ~0,60 m de cada lado."
+  },
+  {
+    "id": "escrivaninha",
+    "nome": "Escrivaninha",
+    "forma": "mesa",
+    "dimensoes": [
+      1.2,
+      0.6,
+      0.75
+    ],
+    "cor": "#a88a68",
+    "meu": false
+  },
+  {
+    "id": "fogao-4-bocas",
+    "nome": "Fogão de piso 4 bocas",
+    "forma": "fogao",
+    "dimensoes": [
+      0.51,
+      0.62,
+      0.86
+    ],
+    "cor": "#e6e6e6",
+    "meu": false
+  },
+  {
+    "id": "fogao-5-bocas",
+    "nome": "Fogão de piso 5 bocas",
+    "forma": "fogao",
+    "dimensoes": [
+      0.76,
+      0.66,
+      0.9
+    ],
+    "cor": "#cfcfcf",
+    "meu": false
+  },
+  {
+    "id": "geladeira",
+    "nome": "Geladeira duplex frost free",
+    "forma": "geladeira",
+    "dimensoes": [
+      0.7,
+      0.75,
+      1.86
+    ],
+    "cor": "#d9dbdd",
+    "meu": false,
+    "nota": "Deixe ~5 cm de folga atrás e dos lados para ventilação."
+  },
+  {
+    "id": "guarda-roupa-casal",
+    "nome": "Guarda-roupa casal 6 portas",
+    "forma": "armario",
+    "dimensoes": [
+      2.2,
+      0.58,
+      2.3
+    ],
+    "cor": "#b49a7c",
+    "meu": false,
+    "nota": "Portas de giro precisam de ~0,60 m livres na frente; de correr, não."
+  },
+  {
+    "id": "guarda-roupa-solteiro",
+    "nome": "Guarda-roupa solteiro 3 portas",
+    "forma": "armario",
+    "dimensoes": [
+      1.2,
+      0.55,
+      2.1
+    ],
+    "cor": "#b49a7c",
+    "meu": false
+  },
+  {
+    "id": "lavatorio",
+    "nome": "Lavatório / gabinete de banheiro",
+    "forma": "pia",
+    "dimensoes": [
+      0.6,
+      0.45,
+      0.85
+    ],
+    "cor": "#f4f4f2",
+    "meu": false
+  },
+  {
+    "id": "maquina-lavar",
+    "nome": "Máquina de lavar 12 kg (abertura superior)",
+    "forma": "caixa",
+    "dimensoes": [
+      0.6,
+      0.66,
+      1
+    ],
+    "cor": "#f0f0f0",
+    "meu": false,
+    "nota": "Tampa abre para cima: precisa de ~1,40 m livre de altura."
+  },
+  {
+    "id": "mesa-jantar-4",
+    "nome": "Mesa de jantar 4 lugares",
+    "forma": "mesa",
+    "dimensoes": [
+      1.2,
+      0.8,
+      0.76
+    ],
+    "cor": "#8a6a4a",
+    "meu": false,
+    "nota": "Some ~0,75 m em cada lado com cadeira para circular."
+  },
+  {
+    "id": "mesa-jantar-6",
+    "nome": "Mesa de jantar 6 lugares",
+    "forma": "mesa",
+    "dimensoes": [
+      1.8,
+      0.9,
+      0.76
+    ],
+    "cor": "#8a6a4a",
+    "meu": false,
+    "nota": "Some ~0,75 m em cada lado com cadeira para circular."
+  },
+  {
+    "id": "pia-cozinha",
+    "nome": "Bancada de pia de cozinha 1,50 m",
+    "forma": "pia",
+    "dimensoes": [
+      1.5,
+      0.6,
+      0.9
+    ],
+    "cor": "#d8d4cc",
+    "meu": false,
+    "nota": "Bancada de cozinha: altura 0,90 m, profundidade 0,55–0,60 m."
+  },
+  {
+    "id": "rack-tv-55",
+    "nome": "Rack com TV 55\"",
+    "forma": "tv",
+    "dimensoes": [
+      1.8,
+      0.45,
+      1.3
+    ],
+    "cor": "#3a3633",
+    "meu": false,
+    "nota": "Rack 1,80 × 0,45 × 0,55 m com TV 55\" (1,23 × 0,71 m) por cima; distância de sofá ideal ≈ 2,1–3,4 m."
+  },
+  {
+    "id": "sofa-2-lugares",
+    "nome": "Sofá 2 lugares",
+    "forma": "sofa",
+    "dimensoes": [
+      1.5,
+      0.9,
+      0.85
+    ],
+    "cor": "#7d7468",
+    "meu": false,
+    "nota": "Faixa comum 1,40–1,70 m de largura."
+  },
+  {
+    "id": "sofa-3-lugares",
+    "nome": "Sofá 3 lugares",
+    "forma": "sofa",
+    "dimensoes": [
+      2.1,
+      0.9,
+      0.85
+    ],
+    "cor": "#7d7468",
+    "meu": false,
+    "nota": "Faixa comum 1,90–2,30 m de largura."
+  },
+  {
+    "id": "vaso-sanitario",
+    "nome": "Vaso sanitário com caixa acoplada",
+    "forma": "vaso",
+    "dimensoes": [
+      0.38,
+      0.65,
+      0.78
+    ],
+    "cor": "#f4f4f2",
+    "meu": false,
+    "nota": "Deixe 0,60 m livres na frente."
+  }
+]
